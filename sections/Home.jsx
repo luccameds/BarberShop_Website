@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
+import { Header } from '@/components';
+import styles from '@/styles';
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <div className={`${styles.bgColor}`}>
+      <Header />
+    </div>
+  );
+};
 
-export default Home
+export default Home;
