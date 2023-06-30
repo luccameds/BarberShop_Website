@@ -1,11 +1,14 @@
 import React from 'react';
-import { Header } from '@/components';
-import styles from '@/styles';
+import { Banners, Details, Footer, Header, Hero } from '@/components';
 
 const Home = () => {
   return (
-    <div className={`${styles.bgColor}`}>
+    <div>
       <Header />
+      <Hero />
+      <Details />
+      <Banners />
+      <Footer />
     </div>
   );
 };
