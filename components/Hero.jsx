@@ -1,5 +1,5 @@
-import { imagesSocialMedia } from '@/constants';
 import React from 'react';
+import { imagesSocialMedia } from '@/constants';
 
 const Hero = () => {
   return (
@@ -28,9 +28,12 @@ const Hero = () => {
           perfeito para elevar seu visual e sentir-se confiante em cada visita.
           Venha para a barbearia que valoriza sua aparência e sua experiência
         </h2>
-        <button className="py-5 px-10 bg-[#F6E5BA] my-[45px] font-bold">
+        <a
+          href={imagesSocialMedia[2].linkURL}
+          className="py-5 px-10 bg-[#F6E5BA] my-[45px] font-bold"
+        >
           Entrar em Contato
-        </button>
+        </a>
       </div>
     </div>
   );

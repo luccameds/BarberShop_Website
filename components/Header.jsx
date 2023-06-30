@@ -1,4 +1,5 @@
 import React from 'react';
+import { imagesSocialMedia } from '@/constants';
 
 const Header = () => {
   return (
@@ -10,9 +11,12 @@ const Header = () => {
         <p>Serviços</p>
         <p>Sobre Nós</p>
       </div>
-      <button className="bg-[#F6E5BA] py-5 px-5 font-semibold">
+      <a
+        href={imagesSocialMedia[2].linkURL}
+        className="bg-[#F6E5BA] px-5 font-semibold justify-center flex items-center"
+      >
         Entrar em Contato
-      </button>
+      </a>
     </div>
   );
 };
