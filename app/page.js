@@ -1,8 +1,9 @@
 import Home from '@/sections/Home';
+import styles from '@/styles';
 
 export default function Page() {
   return (
-    <div>
+    <div className={`bg-[${styles.bgColor}]`}>
       <Home />
     </div>
   );
